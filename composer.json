@@ -1,0 +1,27 @@
+{
+  "name": "stilosdesign/birdie-orm",
+  "description": "",
+  "type": "library",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "Antoniel Bordin",
+      "email": "antonielbordin@hotmail.com",
+      "role": "owner"
+    }
+  ],
+  "license": [
+    "MIT"
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Birdie\\Orm\\": "src/"
+    }
+  }
+}
